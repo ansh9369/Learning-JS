@@ -34,3 +34,21 @@ let y = "Rathore";
 let z = "No1";
 
 console.log(Array.of(x,y,z));
+
+
+
+// calculating length of the array.
+const CountArray = [2,43,2,12,43,21,34,65,76]
+console.log(CountArray.length);
+
+
+// calculating array is empty or not.
+
+const std = [];
+if(std.length === 0){
+    console.log("Array is empty");
+}
+
+
+console.log(std.length);
+
