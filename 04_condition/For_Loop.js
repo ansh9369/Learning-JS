@@ -67,3 +67,12 @@ for (const num of array) {
 // for(const x of array){
 //     console.log(x);
 // }
+
+
+// forof using to print string in array.
+
+const arrr = "Hello World"
+for (const x of arrr) {
+    console.log(`For each: ${x}`);
+    
+}
