@@ -55,3 +55,15 @@ for(let i = 0; i< myArray.length; i++){
     let element = myArray[i];
     console.log(element)
 }
+
+
+// forof loop
+
+let array  = [12,24,3546,76,32,1,3,5,6,4,32,1,34,5,56,544,44,];
+for (const num of array) {
+    console.log(num);
+}
+
+// for(const x of array){
+//     console.log(x);
+// }
