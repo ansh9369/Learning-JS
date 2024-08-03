@@ -20,12 +20,25 @@ for (const [key,value] of map) {
 
 
 
+// const location = new Map();
+// location.set("Chai","Code");
+// location.set("Dosa","Sambhar");
+// location.set("Crud","Jalebi");
+
+// // let location = new Map();
+// for (const [dikha, value] of location) {
+//     console.log(dikha + ":-" + value );
+// }
+
+
+//This is only for key printing
+
 const location = new Map();
 location.set("Chai","Code");
 location.set("Dosa","Sambhar");
 location.set("Crud","Jalebi");
 
 // let location = new Map();
-for (const [dikha, value] of location) {
-    console.log(dikha + ":-" + value );
+for (const [dikha] of location) {
+    console.log(dikha + ":-");
 }

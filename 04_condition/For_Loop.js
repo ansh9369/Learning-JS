@@ -69,10 +69,37 @@ for (const num of array) {
 // }
 
 
-// forof using to print string in array.
+// forof using to print string in array.  by using ---> forof method
 
 const arrr = "Hello World"
 for (const x of arrr) {
-    console.log(`For each: ${x}`);
-    
+    console.log(`For each: ${x}`);   
+}
+
+
+let num = [34,23,12,34,54,34];
+for (const i of num) {
+    console.log(i);
+}
+
+
+/// Using forIn method----> Using for printing of Object
+
+const myObject = {
+    Superman: "DC",
+    AquaMan: "DC",
+    IronMan: "Marvel",
+    SpiderMan: "Marvel"
+};
+
+for (const key in myObject) {
+    console.log(key, "belongs is ", myObject[key]);   
+}
+
+
+//Using forin for Array printing;
+
+const myArr = ["Js", "rb", "py", "C", "MongoDB"];
+for (const key in myArr) {
+    console.log(myArr[key]);
 }
