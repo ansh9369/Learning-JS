@@ -18,5 +18,4 @@ if(debitcard && userLoggedIn && 2===2){
 }
 if(userEmailLoggedIn || userGoogleLoggedIn){
     console.log("User loggrd in");
-    
 }
