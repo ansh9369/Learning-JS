@@ -33,3 +33,16 @@ console.log(newElement);
 
 const getTitle = books.filter( (titleDedo) => (titleDedo.title) )
 console.log(getTitle);
+
+
+// Printing through map function...
+
+
+const numbers = [1,2,3,4,5,6,7,8,9,10];
+
+const newNums = numbers.map((num)=> {return num+10})
+// console.log(newNums);
+
+const x = numbers.map((num)=>num*10).map((num)=>num+1).filter((num)=> num==21);
+const y = numbers.map((num)=>num*10).map((num)=>num+1).filter((num)=> num>=21);
+console.log(x,y);
